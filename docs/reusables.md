@@ -216,7 +216,7 @@ Then copy/paste the following entry:
 
 ![remote_debugging](./images/remote_debugging3.jpg)
 
-4. Update [`connect/connect-hdfs2-sink/docker-compose.plaintext.yml`](https://github.com/vdesabou/kafka-docker-playground/blob/master/connect/connect-hdfs2-sink/docker-compose.plaintext.yml) and add `KAFKA_DEBUG: 'true'`:
+4. Update [`connect/connect-hdfs2-sink/docker-compose.plaintext.yml`](https://github.com/vdesabou/kafka-docker-playground/blob/master/connect/connect-hdfs2-sink/docker-compose.plaintext.yml) and add `KAFKA_DEBUG` and `JAVA_DEBUG_OPTS` configuration:
 
 ```yml
   connect:
